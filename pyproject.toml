@@ -13,6 +13,7 @@ pythonpath = "src"
 python = "^3.10"
 
 [tool.taskipy.tasks]
+cov = "coverage html"
 lint = "black --check --diff . && isort --check --diff ."
 test = "pytest -s -x --cov=src -vv"
 test-watch = "ptw -- -s -x --cov=src -vv"
