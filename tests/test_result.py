@@ -2,7 +2,8 @@ from typing import Any
 
 from pytest import raises
 
-from src.result import *
+from result import *
+from result.errors import InvalidUnwrapError
 
 _ = Any
 

@@ -1,10 +1,17 @@
 [tool.poetry]
 authors = ["William Osteimer Cardoso dos Anjos <wosteimer1@gmail.com>"]
-description = ""
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3.10",
+]
+description = "A python implementation of the Result type, based on the rust language"
 name = "py-result"
-packages = [{include = "src"}]
+packages = [{include = "result", from = "src"}]
 readme = "README.md"
 version = "0.1.0"
+
+[tool.poetry.urls]
+github = "https://github.com/wosteimer/py-result"
 
 [tool.pytest.ini_options]
 pythonpath = "src"

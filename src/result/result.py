@@ -1,13 +1,11 @@
 from typing import Callable, Generic, TypeAlias, TypeVar
 
+from .errors import InvalidUnwrapError
+
 _T = TypeVar("_T")
 _E = TypeVar("_E")
 _U = TypeVar("_U")
 _F = TypeVar("_F")
-
-
-class InvalidUnwrapError(Exception):
-    ...
 
 
 class Ok(Generic[_T, _E]):
