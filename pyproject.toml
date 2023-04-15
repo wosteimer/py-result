@@ -2,7 +2,7 @@
 authors = ["William Osteimer Cardoso dos Anjos <wosteimer1@gmail.com>"]
 description = ""
 name = "py-result"
-packages = [{include = "py_result"}]
+packages = [{include = "src"}]
 readme = "README.md"
 version = "0.1.0"
 
