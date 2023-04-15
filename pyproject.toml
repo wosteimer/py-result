@@ -5,7 +5,8 @@ classifiers = [
   "Programming Language :: Python :: 3.10",
 ]
 description = "A python implementation of the Result type, based on the rust language"
-name = "py-result"
+license = "MIT License"
+name = "typing-result"
 packages = [{include = "result", from = "src"}]
 readme = "README.md"
 version = "0.1.0"

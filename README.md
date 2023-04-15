@@ -3,11 +3,11 @@ A python implementation of the Result type, based on the rust language
 ## Installation
 
 ```bash
-pip install py-result
+pip install typing-result
 ```
 or
 ```bash
-poetry install py-result
+poetry install typing-result
 ```
 
 ## Usage Example
