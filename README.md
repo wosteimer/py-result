@@ -13,6 +13,8 @@ poetry install typing-result
 ## Usage Example
 
 ```python
+from result import Err, Ok, Result
+
 def div(x: float, y: float) -> Result[float, ZeroDivisionError]:
 	if y == 0:
 		return Err(ZeroDivisionError("Ops"))

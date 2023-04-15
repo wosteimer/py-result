@@ -9,7 +9,7 @@ license = "MIT License"
 name = "typing-result"
 packages = [{include = "result", from = "src"}]
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.2"
 
 [tool.poetry.urls]
 github = "https://github.com/wosteimer/py-result"
